@@ -44,12 +44,11 @@ function extractEmails(str) {
 }
 
 function getRectangleString(width, height) {
-  const topline = `┌${'─'.repeat(width - 2)}┐` + '\n';
-  const column = `│${' '.repeat(width - 2)}│` + '\n';
-  const bottomline = `└${'─'.repeat(width - 2)}┘` + '\n';
+  const topline = `┌${'─'.repeat(width - 2)}┐\n`;
+  const column = `│${' '.repeat(width - 2)}│\n`;
+  const bottomline = `└${'─'.repeat(width - 2)}┘\n`;
   return topline + column.repeat(height - 2) + bottomline;
 }
-
 
 function encodeToRot13(str) {
   const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
