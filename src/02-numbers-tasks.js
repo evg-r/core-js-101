@@ -81,15 +81,15 @@ function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
 }
 
 function getLastDigit(value) {
-  return(value.toString().split('').pop())
+  return (value.toString().split('').pop());
 }
 
 function parseNumberFromString(value) {
-  return Number(value)
+  return Number(value);
 }
 
-function getParallelepipedDiagonal( a, b, c) {
-  return Math.sqrt(a**2 + b**2 + c**2)
+function getParallelepipedDiagonal(a, b, c) {
+  return Math.sqrt(a ** 2 + b ** 2 + c ** 2);
 }
 
 
